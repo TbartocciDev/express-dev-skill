@@ -1,0 +1,12 @@
+<%- include('../partials/header') %>
+<a href="/">Home Page</a> | <a href="/skills">All Skills</a>
+<br><br>
+<form action="/skills" method="POST" autocomplete="off">
+  <h3>Skill Title:</h3>
+  <input type="text" name="title">
+  <h3>Skill Summary:</h3>
+  <input type="text" name="summary">
+  <br><br>
+  <button type="submit">Save Skill</button>
+</form>
+<%- include('../partials/footer') %>
